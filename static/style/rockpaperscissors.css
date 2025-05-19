@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-image: url("https://i.postimg.cc/GhmWDMjv/rock-paper-scissors-sign-pattern-seamless-hand-fist-game-background-fingers-ornament-baby-fabric-tex.webp");
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    outline: black;
+    border: black;
+    margin-top: 10px;
+}
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    outline: black;
+    border: black;
+    margin-top: 10px; 
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
