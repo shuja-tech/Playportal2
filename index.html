@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Portal</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/home.css')}}">
+    <link rel="website icon" type="png" href="{{url_for('static',filename='image/main-img/PlayPortal.png')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="{{url_for('static',filename='image/main-img/PlayPortal.png')}}" alt="Website Logo" class="header-logo">
+        <h2 class="header-title"><a href="#play-portal-section">Play Portal</a></h2>
+        <div class="header-buttons">
+            <a href="/" class="header-button">Home</a>
+            <a href="/about" class="header-button">About</a>
+            <a href="/games" class="header-button">Games</a>
+            <a href="/login" class="header-button">Login</a>
+            <a href="/signup" class="header-button">Sign Up</a>
+        </div>
+    </header>
+    <section id="intro-section">
+        <div class="intro-content">
+            <div class="intro-text">
+                <style> h1 { font-family: "Montserrat", sans-serif; font-size: 1.5rem; color:  #FFCC00} </style>
+                <b><b><h1>Welcome to Play Portal</h1></b></b><br><br>
+                <p>Discover a world of fun and excitement with our collection of online games. Whether you're into puzzles, action, or strategy, we have something for everyone. <br><br/> <i>" Dive in and start playing now! " </i><br><br/> Our games are designed to provide endless entertainment and challenge your skills. Join our community of gamers and explore new adventures every day. <br><br>At PlayPortal, we believe that fun has no age limit. Our platform offers a diverse collection of games that cater to players of all ages, from kids to adults. Whether you're looking for challenging puzzles, exciting adventures, or relaxing casual games, we have something for everyone. <br><br>Our platform is built for gamers by gamers, offering seamless gameplay, stunning graphics, and an engaging community. Whether you're a casual player or a hardcore enthusiast, PlayPortal provides the perfect playground to explore new worlds, conquer epic quests, and connect with fellow gamers from around the globe.
+
+                    Join us at PlayPortal, where every game is an adventure waiting to be discovered. Your portal to endless fun and excitement is just a click away! 🎮✨</p></div>
+                <br><br><br><br>
+                <div class="container">
+                    <div>
+                        <a href="/hoverthreed"><img src="{{url_for('static',filename='image/main-img/PlayPortal.png')}}" alt="Website Logo" class="intro-logo"></a>
+                    </div>
+        </div>
+        <div> 
+        <a href="/games" class="button">
+            <div class="button__content">
+                <span class="button__text">Play Now!</span>
+                <div class="button__reflection-1"></div>
+                <div class="button__reflection-2"></div>
+            </div>
+            <img src="{{url_for('static',filename='image/main-img/star.png')}}" alt="" class="button__star-1">
+            <img src="{{url_for('static',filename='image/main-img/star.png')}}" alt="" class="button__star-2">
+            <img src="{{url_for('static',filename='image/main-img/circle.png')}}" alt="" class="button__circle-1">
+            <img src="{{url_for('static',filename='image/main-img/circle.png')}}" alt="" class="button__circle-2">
+            <img src="{{url_for('static',filename='image/main-img/diamond.png')}}" alt="" class="button__diamond">
+            <img src="{{url_for('static',filename='image/main-img/triangle.png')}}" alt="" class="button__triangle">
+            <div class="button__shadow"></div>
+        </a>
+    </div>   
+    </section>
+<br>
+<br><br>
+    <section id="play-portal-section">
+        <div class="games-grid">
+            <div class="game-card twozerofoureight"><a href='/twozerofoureight'>2048</a></div>
+            <div class="game-card BlackJack"><a href='blackjack'>BlackJack</a></div>
+            <div class="game-card candy-crush"><a href='/candy-crush'>Candy Crush</a></div>
+            <div class="game-card connect4"><a href='/connect-four'>Connect 4</a></div>
+            <div class="game-card dino-game"><a href='/dino-game'>Dino Game</a></div>
+            <div class="game-card doodle-jump"><a href='/doodle-jump'>Doodle Jump</a></div>
+            <div class="game-card flappy-bird"><a href='/flappy-bird'>Flappy Bird</a></div>
+            <div class="game-card memory-cards"><a href='/memory-cards'>Memory Cards</a></div>
+            <div class="game-card minesweeper"><a href='/minesweeper'>Minesweeper</a></div>
+            <div class="game-card pingpong"><a href='/pingpong'>PingPong</a></div>
+            <div class="game-card puzzle"><a href='/puzzle'>Puzzle</a></div>
+            <div class="game-card rock-paper-scissors"><a href='/rockpaperscissors'>Rock Paper Scissors</a></div>
+            <div class="game-card slide-puzzle"><a href='/slide-puzzle'>Slide Puzzle</a></div>
+            <div class="game-card snake"><a href='/snake'>Snake</a></div>
+            <div class="game-card space-invaders"><a href='/space-invaders'>Space Invaders</a></div>
+            <div class="game-card sudoku"><a href='/sudoku'>Sudoku</a></div>
+            <div class="game-card tictactoe"><a href='/tictactoe'>Tic Tac Toe</a></div>
+            <div class="game-card whackamole"><a href='/whackamole'>Whack-a-mole</a></div>
+            <div class="game-card wordle"><a href='/wordle'>Wordle</a></div>
+            <div class="game-card hangman"><a href='/hangman'>Hangman</a></div>
+        </div>
+    </section>
+    <br>
+</body>
+<footer>
+    <p>© 2024-2025, PlayPortal. All Rights Reserved. </p>
+</footer>
+</html>
